@@ -28,8 +28,18 @@ export default function Home() {
           </a>
         </div>
       </div>
-      <div className="  ">
+      <div className="bg-gray-700 p-4">
+        MUX
         <MuxPlayer playbackId="gT400QaLbyGkoUTmkxV5zWO5eKokbehry3jDDdgkumeM" />
+      </div>
+      <div className="bg-gray-700 p-4 mt-3">
+        Video Tag
+        <video
+          src="https://oukdqujzonxvqhiefdsv.supabase.co/storage/v1/object/public/course-videos/Generative AI Crash Course - Cohort IV (Week 1)/intro-1716734810389"
+          controls
+          width={500}
+          height={500}
+        />
       </div>
     </main>
   );
